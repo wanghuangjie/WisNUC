@@ -1,5 +1,5 @@
 # WinsNUC
-闻上云管家ws215i ，Energy Efficient 9W Idle, 14W Load
+闻上云管家ws215i ，空载9W，满载14W
 相近产品[THECUS N4520](http://www.thecus.com/product.php?PROD_ID=86)
 # 硬件:
 ![拆机](https://am.zdmimg.com/201604/05/5703a8469d1e6.jpg_e600.jpg)
