@@ -17,3 +17,7 @@
 *来自wisnuc闻上改装交流qq群，**howard*** 
 
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/wanghuangjie/WinsNUC/master/oneky_omv.sh)"```
+
+# 其他：
+
+风扇调速0~100 ```echo 20 >/proc/FAN_io```
