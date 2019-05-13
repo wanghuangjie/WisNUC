@@ -14,6 +14,6 @@
 
 # 一键OMV:
 
-*来自wisnuc闻上改装交流qq群，**howard*** *
+*来自wisnuc闻上改装交流qq群，**howard*** 
 
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/wanghuangjie/WinsNUC/master/oneky_omv.sh)"```
