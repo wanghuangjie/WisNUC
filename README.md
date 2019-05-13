@@ -11,3 +11,7 @@
   * HDMI
   * RJ45千兆网口
   * SATA3*2最大单盘6TB，硬盘2.5" 3.5"均兼容
+
+# 一键OMV:  -来自wisnuc闻上改装交流，howard
+
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/wanghuangjie/WinsNUC/master/oneky_omv.sh)"```
