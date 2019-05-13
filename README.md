@@ -1,4 +1,4 @@
-# WinsNUC
+# WisNUC
 闻上云管家ws215i ，空载9W，满载14W
 相近产品[THECUS N4520](http://www.thecus.com/product.php?PROD_ID=86)
 # 硬件:
