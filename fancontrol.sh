@@ -24,10 +24,10 @@ elif [ $cpu_temp -gt $low ]
 echo PWR_LED 2 > /proc/BOARD_io #慢闪
 then
 change_fan_level 25 #低速
-echo PWR_LED 1 > /proc/BOARD_io #常亮
+echo PWR_LED 0 > /proc/BOARD_io #常闭
 else
 change_fan_level 50 #获取不到cpu温度时恒定50
-echo PWR_LED 0 > /proc/BOARD_io 
+echo PWR_LED 1 > /proc/BOARD_io  #常开
 fi
 
 
