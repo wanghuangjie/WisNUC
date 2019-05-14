@@ -10,14 +10,15 @@
 
 # 其他：
 
-风扇调速0~100 ```echo 20 >/proc/FAN_io```
-
 apt-get install lm-sensors
+
 wget https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/fancontrol.sh
+
 chmod a+x fancontrol.sh
+
 crontab -e ```* * * * * bash /root/fancontrol.sh```
 
-
+查看当前转速  ```cat  /proc/FAN_io```
 
 # 硬件:
 ![拆机](https://am.zdmimg.com/201604/05/5703a8469d1e6.jpg_e600.jpg)
