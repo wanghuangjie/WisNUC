@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# By wanghuangjie
+# v0.02
 cpu_temp=$(sensors -u|sed -n '/Core 0/ {n;p}'|awk {'print $2'}|sed 's/.000//') #获取cpu当前温度
 
 low=40 #低负载
@@ -25,3 +28,5 @@ echo PWR_LED 1 > /proc/BOARD_io #常亮
 else
 change_fan_level 50 #获取不到cpu温度时恒定50
 fi
+
+
