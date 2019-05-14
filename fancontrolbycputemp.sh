@@ -13,12 +13,15 @@ change_fan_level() {
 if [ $cpu_temp -gt $high ]
 then
 change_fan_level 100 #全速
+echo PWR_LED 1 > /proc/BOARD_io #快闪
 elif [ $cpu_temp -gt $mid ] 
 then
 change_fan_level 40 #中速
 elif [ $cpu_temp -gt $low ]
+echo PWR_LED 2 > /proc/BOARD_io #慢闪
 then
 change_fan_level 25 #低速
+echo PWR_LED 1 > /proc/BOARD_io #常亮
 else
 change_fan_level 50 #获取不到cpu温度时恒定50
 fi
