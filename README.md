@@ -10,6 +10,9 @@
 
 # 其他：
 
+###风扇控制 - 并不是很好的控制方案，每分钟根据cpu温度调整一次转速，
+高负载 快闪 中负载 慢闪  低负载 常量
+
 apt-get install lm-sensors
 
 wget https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/fancontrol.sh
