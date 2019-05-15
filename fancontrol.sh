@@ -17,9 +17,13 @@ if [ $cpu_temp -gt $high ]
 then
 change_fan_level 100 #全速
 echo PWR_LED 3 > /proc/BOARD_io #快闪
+elif [ $cpu_temp -gt $mid ] 
+then
+change_fan_level 50 #中速
+echo PWR_LED 2 > /proc/BOARD_io #慢闪
 elif [ $cpu_temp -gt $low ] 
 then
-change_fan_level 40 #中速
+change_fan_level 30 #中速
 echo PWR_LED 2 > /proc/BOARD_io #慢闪
 elif [ $cpu_temp -le $low ]
 then
