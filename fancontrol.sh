@@ -4,7 +4,7 @@
 # v0.02
 cpu_temp=$(sensors -u|sed -n '/Core 0/ {n;p}'|awk {'print $2'}|sed 's/.000//') #获取cpu当前温度
 
-low=35 #低负载
+low=36 #低负载
 mid=40 #中负载
 high=60  #高负载
 #--------------end of configure file--------------
