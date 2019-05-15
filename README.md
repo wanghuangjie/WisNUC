@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/fancontrol.sh
 chmod a+x fancontrol.sh
 
 crontab -e 
-```* * * * * bash /root/fancontrol.sh```
+```* * * * * /usr/bin/sudo sh /apps/fancontrol.sh```
 
 查看当前转速  ```cat  /proc/FAN_io```
 
