@@ -21,7 +21,7 @@ chmod a+x fancontrol.sh
 
 crontab -e 
 
-```* * * * * /usr/bin/sudo sh /apps/fancontrol.sh```
+```* * * * * /usr/bin/sudo sh fancontrol.sh```
 
 查看当前转速  ```cat  /proc/FAN_io```
 
