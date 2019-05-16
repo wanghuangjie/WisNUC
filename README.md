@@ -17,7 +17,7 @@ su 切换成root用户，默认密码yutech
 
 apt-get install lm-sensors
 
-mkdir /apps & cd /apps
+mkdir /apps && cd /apps
 
 wget https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/fancontrol.sh
 
