@@ -1,6 +1,7 @@
 # WisNUC
 闻上云管家ws215i ，空载9W，满载14W
 相近产品[THECUS N4520](http://www.thecus.com/product.php?PROD_ID=86)
+       群晖 ds214 play
 
   * SATA3*2最大单盘~~6TB~~，已测8TB可用，硬盘2.5" 3.5"均兼容
 
@@ -34,7 +35,8 @@ chmod a+x fancontrol.sh
 
 查看当前转速  ```cat  /proc/FAN_io```
 
-
+### hassio
+systemctl disable hassio-supervisor.service
 
 
 
