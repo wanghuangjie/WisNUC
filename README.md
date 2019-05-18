@@ -32,11 +32,8 @@ chmod a+x fancontrol.sh
 * * * * * /usr/bin/sudo sh /apps/fancontrol.sh
 ```
 
-
 查看当前转速  ```cat  /proc/FAN_io```
 
-### hassio
-systemctl disable hassio-supervisor.service
 
 
 
