@@ -24,6 +24,10 @@ wget https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/fancontrol.sh
 
 chmod a+x fancontrol.sh
 
+测试脚本是否有效，执行后指示灯应熄灭，转速明显下降  ```./fancontrol.sh ```
+
+查看当前转速  ```cat  /proc/FAN_io```
+
 修改定时计划 ```crontab -e ``` 
 
 ```
@@ -32,7 +36,6 @@ chmod a+x fancontrol.sh
 * * * * * /usr/bin/sudo sh /apps/fancontrol.sh
 ```
 
-查看当前转速  ```cat  /proc/FAN_io```
 
 
 
