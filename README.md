@@ -5,9 +5,9 @@
 
   * SATA3*2最大单盘~~6TB~~，已测8TB可用，硬盘2.5" 3.5"均兼容
 
-# OMV安装:
+### [OMV安装](https://openmediavault.readthedocs.io/en/latest/installation/on_debian.html)
 
-[参照](https://openmediavault.readthedocs.io/en/latest/installation/on_debian.html)
+### [volumio安装](https://github.com/wanghuangjie/WisNUC/blob/master/howtodockervolumio.md)
 
 # 其他：
 
