@@ -38,11 +38,12 @@ special thanks to 天津-毅颗流星 ，没有他就没有这篇教程
     @audio - memlock unlimited 
     @audio - nice -10
     ```    
-    ###安装docker###
-    ####自行替换 host的网址，音乐文件夹目录，程序配置目录
+    
+  ### 安装docker ###
+  #### 自行替换 host的网址，音乐文件夹目录，程序配置目录 ###
 
 ```
-    docker run --restart=always -d --name volumio \
+  docker run --restart=always -d --name volumio \
   -e HOST=http://192.168.1.10:3000 \
   -p 3000:3000 \
   -v /sharedfolders/musics/DATA:/var/lib/mpd/music/:ro \
