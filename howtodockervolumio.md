@@ -30,7 +30,7 @@
     ``` 
     options snd_usb_audio index=0 
     ```
-6.  vi /etc/security/limits.conf 
+6.  vi /etc/security/limits.conf  添加下述内容
    
     ```
     @audio - rtprio 99 
