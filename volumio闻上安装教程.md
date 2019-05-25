@@ -1,7 +1,5 @@
 # Volumio Docker on Wisnuc #
-
 ## 闻上安装volumio ##
-
 ### special thanks to 天津-毅颗流星 ，没有他就没有这篇教程 ###
 
 ================
