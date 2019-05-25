@@ -1,9 +1,4 @@
-# WisNUC
-闻上云管家ws215i ，空载9W，满载14W
-相近产品[THECUS N4520](http://www.thecus.com/product.php?PROD_ID=86)
-       群晖 ds214 play
-
-  * SATA3*2最大单盘~~6TB~~，已测8TB可用，硬盘2.5" 3.5"均兼容
+# WisNUC 闻上云管家ws215i 
 
 ### [OMV安装](https://openmediavault.readthedocs.io/en/latest/installation/on_debian.html)
 
@@ -35,8 +30,6 @@ chmod a+x fancontrol.sh
 #*/3 * * * * /usr/bin/sudo sh /unas/sbin/healthcheck.sh 注释这两项可以开启硬盘休眠
 * * * * * /usr/bin/sudo sh /apps/fancontrol.sh
 ```
-
-
 
 
 
