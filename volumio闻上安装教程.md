@@ -1,7 +1,9 @@
 #Volumio Docker on Wisnuc
-##闻上安装volumio
-special thanks to 天津-毅颗流星 ，没有他就没有这篇教程
 
+##闻上安装volumio
+
+special thanks to 天津-毅颗流星 ，没有他就没有这篇教程
+================
 ###配置声卡###
 
 1.   apt-get install libasound2 alsa-utils alsa-oss
@@ -30,7 +32,9 @@ card 0: Device [USB PnP Sound Device], device 0: USB Audio [USB Audio]
 6.  vi /etc/security/limits.conf 
    
     ```
-@audio - rtprio 99 @audio - memlock unlimited @audio - nice -10
+@audio - rtprio 99 
+@audio - memlock unlimited 
+@audio - nice -10
     ```    
     ###安装docker###
     ####自行替换 host的网址，音乐文件夹目录，程序配置目录
