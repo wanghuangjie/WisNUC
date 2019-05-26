@@ -4,6 +4,7 @@
 
 ### [volumio安装](https://github.com/wanghuangjie/WisNUC/blob/master/howtodockervolumio.md)
 
+### [按钮监测_PWR_USBCOPY_RESET](https://raw.githubusercontent.com/wanghuangjie/WisNUC/master/buttonlistener.sh) 
 # 其他：
 
 ### 风扇控制 
