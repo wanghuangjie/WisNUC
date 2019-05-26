@@ -15,7 +15,7 @@
      Subdevices: 0/1
      Subdevice #0: subdevice #0
      ```
-3.  记录 **device 0**: USB Audio [USB Audio]，device的id，非常重要
+3.  记录 **device 0**: USB Audio [USB Audio]，device的id，**非常重要**
 4.  vi  /etc/asound.conf 
 
 
