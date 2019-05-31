@@ -6,7 +6,7 @@
       从铜柱往主板方向，分别是tx，rx，VCC，gnd。如不明，查看群图片。
       接法，只用接三根线 主板的tx对usb编程器的rx，主板的rx对编程器的tx，gnd对gnd，vcc不连
       波特率是115200，
-      正常情况下windows下用xshell，可用硬件管理器查看具体端口。
+      windows下用xshell，端口可用硬件管理器确认。
       macOS或者linux用minicom，端口在/dev/tty.usbxxx下
 3、怎么检测我的ttl是否接好？
    反复确认已按上述接法接线，将编程器连接至电脑，闻上插上电源（不要开机），终端会显示ac_boot等。如有，则正常，如无，请复查接线或驱动。
