@@ -3,7 +3,8 @@
 # By wanghuangjie
 # v0.02
 #cpu_temp=$(sensors -u|sed -n '/Core 0/ {n;p}'|awk {'print $2'}|sed 's/.000//') #获取cpu当前温度. (测试unas、debian、ubuntu有效）
-cpu_temp=$(awk 'BEGIN{printf "%.1f\n",('$(cat /sys/class/hwmon/hwmon0/device/temp2_input)'+'$(cat /sys/class/hwmon/hwmon0/device/temp3_input)')/2000''}')
+cpu=$(awk 'BEGIN{printf "%d\n",('$(cat /sys/class/hwmon/hwmon0/device/temp2_input)'+'$(cat /sys/class/hwmon/hwmon0/device/temp3_input)')/2000''}')
+
 #测试 dsm 有效
 
 low=40 #低负载
