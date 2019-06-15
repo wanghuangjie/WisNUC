@@ -10,7 +10,7 @@
 ### 风扇控制 
 并不是很好的控制方案，每分钟根据cpu温度调整一次转速。led灯：高负载 快闪 中负载 慢闪  低负载 常闭
 
-su 切换成root用户，默认密码yutech
+sudo su 切换成root用户
 
 apt-get install lm-sensors
 
@@ -27,11 +27,9 @@ chmod a+x fancontrol.sh
 修改定时计划 ```crontab -e ``` 
 
 ```
-#*/2 * * * * /usr/bin/sudo sh /unas/apps/errormessage/includes/check_error_db.sh 注释这两项可以开启硬盘休眠
-#*/3 * * * * /usr/bin/sudo sh /unas/sbin/healthcheck.sh 注释这两项可以开启硬盘休眠
 * * * * * /usr/bin/sudo sh /apps/fancontrol.sh
 ```
-
+也可通过群晖的计划任务，设置成每分钟执行一次。
 
 
 # 硬件:
