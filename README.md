@@ -10,9 +10,7 @@
 ### 风扇控制 
 并不是很好的控制方案，每分钟根据cpu温度调整一次转速。led灯：高负载 快闪 中负载 慢闪  低负载 常闭
 
-sudo su 切换成root用户
-
-apt-get install lm-sensors
+切换成root用户
 
 mkdir /apps && cd /apps
 
